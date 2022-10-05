@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: myfont1;
+    src: url(./Fonts/SourceCodePro-Italic-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: myfont2;
+    src: url(./Fonts/BebasNeue-Regular.ttf);
+}
+@font-face{
+    font-family: myfont3;
+    src: url(./Fonts/Cairo-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: myfont4;
+    src: url(./Fonts/DancingScript-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: myfont5;
+    src: url(./Fonts/GemunuLibre-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: myfont6;
+    src: url(./Fonts/Lobster-Regular.ttf);
+}
+@font-face{
+    font-family: myfont7;
+    src: url(./Fonts/NotoSerifGujarati-Bold.ttf);
+}
+@font-face{
+    font-family: myfont8;
+    src: url(./Fonts/Saira_Condensed-Black.ttf);
+}
+@font-face{
+    font-family: myfont9;
+    src: url(./Fonts/Saira_SemiExpanded-BlackItalic.ttf);
+}
+@font-face{
+    font-family: myfont10;
+    src: url(./Fonts/HennyPenny-Regular.ttf);
+}
+.firstnav{
+    border: 2px solid black;
+    margin-top: 5px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    border-radius: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border: 2px solid black; */
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    
+}
+i{
+    position: relative;
+    bottom: 15px;
+    right: 35px;
+}
+.sec{
+    border: 2px solid black;
+    /* margin-top: 10px; */
+    border-top: 0;
+    padding-top: 10px;
+    background-color: rgb(177, 243, 243,0.5);
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+      
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-left: 25px;
+}
+a:hover{
+    color: orangered;
+}
